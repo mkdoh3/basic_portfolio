@@ -6,6 +6,13 @@
 </head>
 <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<script type="text/javascript">
+	$(document).ready(function(){
+     $("#git").mouseover(function(){
+         $("#linked").css("filter", "blur(10px)");
+     });
+});
+</script>
 <body>
 	<header class="home-header">
 		<h1 class="name">Michael Doherty</h1>
@@ -41,9 +48,9 @@
 		<aside class="contact-aside">
 			<h3>Connect with Me</h3>
 			<ul>
-				<li><a href="#"><img src="assets/images/git.png" alt="git"></li></a>
-				<li><a href="#"><img src="assets/images/linked.png" alt="linked"></li></a>
-				<li><a href="#"><img src="assets/images/stack.png" alt="overflow"></li></a>
+				<li><a href="#"><img id="git" src="assets/images/git.png" alt="git"></li></a>
+				<li><a href="#"><img  id="linked" src="assets/images/linked.png" alt="linked"></li></a>
+				<li><a href="#"><img id="stack" src="assets/images/stack.png" alt="stackoverflow"></li></a>
 			</ul>
 		</aside>
 	</section>
