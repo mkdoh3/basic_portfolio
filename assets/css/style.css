@@ -112,6 +112,7 @@ I'm sure theres a better way! */
 	background: #f7f7f7;
 	float: left;
 	box-shadow: -8px 8px 50px;
+	padding-bottom: 20px;
 	}
 
 .portfolio-content h2 {
@@ -127,7 +128,13 @@ I'm sure theres a better way! */
 .image {
 	position: relative;
 	float: left;
-	margin: 20px 30px;
+	margin: 10px;
+}
+
+.gallery {
+	width: 90%;
+	margin: 20px auto;
+
 }
 
 .title h3 {
@@ -139,7 +146,8 @@ I'm sure theres a better way! */
 	color: #f7f7f7;
 	z-index: 10000;
 	padding: 10px;
-	text-align: center
+	text-align: center;
+	border-bottom: 1px groove #cccccc;
 }
 
 
@@ -185,11 +193,10 @@ I'm sure theres a better way! */
 }
 
 
-
-
 footer {
 	clear: both;
 	position: fixed;
+	z-index: 20000;
 	bottom: 0;
 	width: 100%;
 	height: 70px;
@@ -206,6 +213,7 @@ padding-top: 25px;
 
 .nav-bar a:hover {
 	font-size: 115%;
+	letter-spacing: 1px;
 	padding: 10px;
 	margin: 15px;
 	transition: 0.2s;
@@ -215,6 +223,10 @@ padding-top: 25px;
 	filter: blur(0px);
 	transform: scale(1.1);
 }
+
+/*.image:hover {
+	border: 1px solid #777;
+}*/
 
 
 footer p:hover {
@@ -251,11 +263,6 @@ button {
 }
 
 
-.portfolio-content li {
-	display: inline;
-	padding: 20px;
-
-}
 
 
 
