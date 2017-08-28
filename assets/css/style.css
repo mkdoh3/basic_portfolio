@@ -50,7 +50,7 @@ h1, h2, h3 {
 
 .nav-bar li {
 	display: inline;
-	
+
 }
 
 .nav-bar a {
@@ -58,6 +58,7 @@ h1, h2, h3 {
 	padding: 0 15px 0 15px;
 	text-decoration: none;
 	border-right: 1px solid #cccccc;
+
 
 }
 
@@ -101,10 +102,6 @@ h1, h2, h3 {
 	padding: 20px 10px 15px 0px;
 	border-bottom: 2px groove #cccccc;
 }
-
-
-/*I used a brute force sort of method to line these iamges up
-I'm sure theres a better way! */
 
 .portfolio-content {
 	width: 650px;
